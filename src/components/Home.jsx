@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const Home = () => {
     return (
-        <div id='home' className="max-w-5xl mx-auto min-h-screen grid items-center px-4 pt-20 ">
+        <div id='home' className="max-w-5xl mx-auto px-4 pt-20 md:pt-32">
             <div className="flex flex-col-reverse md:flex-row items-center gap-6">
                 <div className='md:w-1/2'>
                     <h3>
