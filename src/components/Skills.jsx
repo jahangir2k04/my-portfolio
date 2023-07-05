@@ -19,51 +19,51 @@ const Skills = () => {
             <div className='grid grid-cols-2 md:grid-cols-6 gap-6 mt-10'>
 
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={HTML} alt="" />
+                    <img className='mx-auto h-16 w-16' src={HTML} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>HTML 5</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={CSS} alt="" />
+                    <img className='mx-auto h-16 w-16' src={CSS} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>CSS 5</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Tailwind} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Tailwind} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Tailwind</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Bootstrap} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Bootstrap} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Bootstrap</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={JavaScript} alt="" />
+                    <img className='mx-auto h-16 w-16' src={JavaScript} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>JavaScript</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={React} alt="" />
+                    <img className='mx-auto h-16 w-16' src={React} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>React</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Node} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Node} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Node</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Express} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Express} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Express</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={MongoDB} alt="" />
+                    <img className='mx-auto h-16 w-16' src={MongoDB} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>MongoDB</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Firebase} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Firebase} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Firebase</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={JWT} alt="" />
+                    <img className='mx-auto h-16 w-16' src={JWT} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>JWT</h3>
                 </div>
                 <div className='border-2 border-[#3e3b92] p-4 text-center rounded'>
-                    <img className='mx-auto h-16 w-16' src={Stripe} alt="" />
+                    <img className='mx-auto h-16 w-16' src={Stripe} alt="Logo" />
                     <h3 className='mt-3 text-xl font-bold'>Stripe</h3>
                 </div>
                 

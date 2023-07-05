@@ -7,13 +7,13 @@ import { FaEye, FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div id="projects" className="min-h-screen max-w-5xl mx-auto px-4 pt-20 md:pt-32">
+        <div id="projects" className="max-w-5xl mx-auto px-4 pt-20 md:pt-32">
             <h3 className="md:w-1/3 mx-auto text-center pb-3 border-b-4 border-[#f44369] text-4xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text">Recent Projects</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
 
                 <div className='shadow-xl hover:shadow-red-300 duration-700'>
-                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={FitflexImg} alt="" />
+                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={FitflexImg} alt="Project Image" />
                     <div className='p-6'>
                         <h3 className='text-2xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text'>FitFlex</h3>
                         <p className='my-4'>A MERN stack online gym website for everyone. Here is, firebase authentication, dashboard for users, instructors, and admin, payment gateway, private route. User can purchase a class, instructors can add a class and admin can approved or denied any class.</p>
@@ -28,7 +28,7 @@ const Projects = () => {
                 </div>
 
                 <div className='shadow-xl hover:shadow-red-300 duration-700'>
-                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={ToysImg} alt="" />
+                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={ToysImg} alt="Project Image" />
                     <div className='p-6'>
                         <h3 className='text-2xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text'>Chadmama Toys</h3>
                         <p className='my-4'>A MERN stack online toys marketplace website. Here is, firebase authentication, admin panel, private route. User can add, update and delete a toy.</p>
@@ -43,7 +43,7 @@ const Projects = () => {
                 </div>
 
                 <div className='shadow-xl hover:shadow-red-300 duration-700'>
-                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[3s]' src={BistroBossImg} alt="" />
+                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[3s]' src={BistroBossImg} alt="Project Image" />
                     <div className='p-6'>
                         <h3 className='text-2xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text'>Bistro Boss</h3>
                         <p className='my-4'>A MERN stack online restaurant website. Here is, firebase authentication, dashboard for user and admin, private route, payment gateway and many more. User can order any food according to their choice and they also need to payment to receive the food.</p>
@@ -58,7 +58,7 @@ const Projects = () => {
                 </div>
 
                 <div className='shadow-xl hover:shadow-red-300 duration-700'>
-                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={RannghorImg} alt="" />
+                    <img className='w-full h-72 object-cover object-top hover:object-bottom duration-[2s]' src={RannghorImg} alt="Project Image" />
                     <div className='p-6'>
                         <h3 className='text-2xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text'>RannaGhor</h3>
                         <p className='my-4'>A React online chefs recipes website. Here is, firebase authentication and private route. Here is so many recipes by different chefs. User can order any recipe according to their choice.</p>
