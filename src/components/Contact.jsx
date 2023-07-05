@@ -9,9 +9,19 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+  import AOS from 'aos';
+  import 'aos/dist/aos.css'; 
+  import { useEffect } from 'react';
 
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init({
+          once: false,
+          duration: 1000
+        });
+      }, []);
 
     const form = useRef();
 
@@ -31,7 +41,7 @@ const Contact = () => {
         <div id="contact" className="min-h-screen max-w-5xl mx-auto px-4 pt-20 md:pt-32">
             <h3 className="md:w-1/3 mx-auto text-center pb-3 border-b-4 border-[#f44369] text-4xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-transparent bg-clip-text">Contact Me</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
-                <div className="pt-6">
+                <div data-aos="fade-right" className="pt-6">
                     <div className="flex items-center gap-4">
                         <div className="text-xl text-[#f44369] border-2 border-[#f44369] p-3 rounded-full"><FaPhoneAlt /></div>
                         <div>
@@ -71,7 +81,7 @@ const Contact = () => {
 
                 </div>
 
-                <div className="shadow-2xl p-6">
+                <div data-aos="fade-left" className="shadow-2xl p-6">
                     <h3 className="text-2xl font-bold mb-2">Wanna, Say Hi?</h3>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="form-control w-full">
