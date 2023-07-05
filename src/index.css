@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.nav-link:active{
-    @apply border-b-2 border-red-600
-}
