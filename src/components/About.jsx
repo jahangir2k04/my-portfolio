@@ -30,7 +30,9 @@ const About = () => {
                     <p className='my-6'>Hi, I&apos;m Jahangir Alam. I&apos;m studying in the Diploma in Computer Science and Technology at Mymensingh Polytechnic Institute. I have been interested in programming since childhood. So I learned web development from the Programming-Hero Institute. I am also learning new things continuously. Because I love learning new things and doing new tasks.</p>
                     <div className='flex gap-6'>
                         <a href='../../public/jahangir_alam_resume.pdf' download className='text-2xl font-semibold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-white w-40 py-3 rounded hover:scale-110 transition duration-700 flex justify-center items-center gap-2'>  <FaDownload /> <span>Resume</span></a>
-                        <button className="text-2xl font-semibold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-white w-40 py-2 rounded hover:scale-110 transition duration-700">Hire Me</button>
+                        <button className="text-2xl font-semibold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-white w-40 py-2 rounded hover:scale-110 transition duration-700">
+                            <a href="#contact">Hire Me</a>
+                        </button>
                     </div>
                 </div>
             </div>

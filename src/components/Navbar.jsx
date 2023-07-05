@@ -26,7 +26,9 @@ const Navbar = () => {
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal items-center px-1 space-x-6 text-lg font-bold">
                         {menuItem}
-                        <button className="text-xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-white px-6 py-2 rounded hover:scale-110 transition duration-700">Hire Me</button>
+                        <button className="text-xl font-bold bg-gradient-to-r from-[#f44369] to-[#3e3b92] text-white px-6 py-2 rounded hover:scale-110 transition duration-700">
+                            <a href="#contact">Hire Me</a>
+                        </button>
                     </ul>
                 </div>
             </div>
